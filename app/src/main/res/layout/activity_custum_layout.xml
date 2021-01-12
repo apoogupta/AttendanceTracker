@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/idView"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:padding="10dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="7dp"
+        android:layout_height="39dp"
+        android:layout_weight="1" />
+</LinearLayout>
